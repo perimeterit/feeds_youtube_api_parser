@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Feeds: YouTube hook implementations.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function feeds_youtube_api_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.feeds_youtube_api':
+      $lines = [];
+      $lines[] = t('To get started with Feeds YouTube you\'ll need to create an account on the <a href=":url">Google API Console</a> with a valid project. You will need a developer key, client ID, and client secret.', [':url' => 'https://console.developers.google.com']);
+      $lines[] = t('In the Google API Console you will need to enable the YouTube Data API v3 from the API Library.');
+      $lines[] = t('If using the <em>JsonPath</em> parser from the <strong>Feeds extensible parsers</strong> module (recommended), use "$.*" for the Context field on the Mapping tab.');
+      $output = '<h2>' . t('Getting started') . '</h2><p>' . implode('</p><p>', $lines) . '</p>';
+
+      return $output;
+  }
+}

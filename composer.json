@@ -1,0 +1,19 @@
+{
+  "name": "drupal/feeds_youtube_api",
+  "description": "Fetches YouTube videos from playlists via Google API v3.",
+  "type": "drupal-module",
+  "keywords": ["Drupal"],
+  "homepage": "http://drupal.org/project/feeds_youtube",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/feeds_youtube",
+    "source": "https://git.drupalcode.org/project/feeds_youtube"
+  },
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "require": {
+    "drupal/core": "^8.7.7 || ^9",
+    "drupal/feeds": "^3.0@beta",
+    "drupal/feeds_ex": "^1.0@beta",
+    "google/apiclient": "^2.0"
+  }
+}
