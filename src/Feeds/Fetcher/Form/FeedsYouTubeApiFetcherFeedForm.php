@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\feeds_youtube_api\Feeds\Fetcher\Form;
+namespace Drupal\feeds_youtube_api_parser\Feeds\Fetcher\Form;
 
 use Google\Exception as GoogleException;
 use Google\Service\Exception as GoogleServiceException;
@@ -8,7 +8,7 @@ use Drupal\feeds\FeedInterface;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\feeds\Plugin\Type\FeedsPluginInterface;
 use Drupal\feeds\Plugin\Type\ExternalPluginFormBase;
-use Drupal\feeds_youtube_api\Exception\YouTubeApiException;
+use Drupal\feeds_youtube_api_parser\Exception\YouTubeApiException;
 
 /**
  * Provides a form on the feed edit page for the FeedsYouTubeFetcher.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\feeds_youtube_api\Feeds\Fetcher;
+namespace Drupal\feeds_youtube_api_parser\Feeds\Fetcher;
 
 use Google\Client;
 use Google\Service\YouTube;
@@ -23,8 +23,8 @@ use Drupal\feeds_youtube_api\Exception\YouTubeApiException;
  *   title = @Translation("YouTube API"),
  *   description = @Translation("Fetch videos from a YouTube playlist"),
  *   form = {
- *     "configuration" = "Drupal\feeds_youtube_api\Feeds\Fetcher\Form\FeedsYouTubeApiFetcherForm",
- *     "feed" = "Drupal\feeds_youtube_api\Feeds\Fetcher\Form\FeedsYouTubeApiFetcherFeedForm",
+ *     "configuration" = "Drupal\feeds_youtube_api_parser\Feeds\Fetcher\Form\FeedsYouTubeApiFetcherForm",
+ *     "feed" = "Drupal\feeds_youtube_api_parser\Feeds\Fetcher\Form\FeedsYouTubeApiFetcherFeedForm",
  *   }
  * )
  */
@@ -98,7 +98,7 @@ class FeedsYouTubeApiFetcher extends PluginBase implements ClearableInterface, F
    * @return \Google\Service\YouTube
    *   The Google Youtube client.
    *
-   * @throws \Drupal\feeds_youtube_api\Exception\YouTubeApiException
+   * @throws \Drupal\feeds_youtube_api_parser\Exception\YouTubeApiException
    *   Thrown if the developer key is wrong or missing..
    */
   public function getYoutubeClient(): YouTube {

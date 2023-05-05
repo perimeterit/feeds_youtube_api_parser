@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\feeds_youtube_api\Exception;
+namespace Drupal\feeds_youtube_api_parser\Exception;
 
 use RuntimeException;
 

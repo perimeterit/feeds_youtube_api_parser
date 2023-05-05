@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\feeds_youtube_api\Feeds\Fetcher\Form;
+namespace Drupal\feeds_youtube_api_parser\Feeds\Fetcher\Form;
 
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\feeds\Plugin\Type\ExternalPluginFormBase;
