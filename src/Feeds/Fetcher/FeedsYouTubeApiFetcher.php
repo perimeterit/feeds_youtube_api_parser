@@ -13,13 +13,13 @@ use Drupal\feeds\Result\RawFetcherResult;
 use Drupal\feeds\Plugin\Type\ClearableInterface;
 use Google\Service\YouTube\PlaylistItemListResponse;
 use Drupal\feeds\Plugin\Type\Fetcher\FetcherInterface;
-use Drupal\feeds_youtube_api\Exception\YouTubeApiException;
+use Drupal\feeds_youtube_api_parser\Exception\YouTubeApiException;
 
 /**
  * Constructs FeedsYouTubeApiFetcher object.
  *
  * @FeedsFetcher(
- *   id = "feeds_youtube_api_fetcher",
+ *   id = "feeds_youtube_api_parser_fetcher",
  *   title = @Translation("YouTube API"),
  *   description = @Translation("Fetch videos from a YouTube playlist"),
  *   form = {
