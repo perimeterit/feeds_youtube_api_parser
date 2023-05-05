@@ -11,6 +11,7 @@
   "license": "GPL-2.0+",
   "minimum-stability": "dev",
   "require": {
+    "drupal/core": "^9 || ^10",
     "drupal/feeds": "^3.0@beta",
     "drupal/feeds_ex": "^1.0@beta",
     "google/apiclient": "^2.0"
