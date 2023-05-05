@@ -1,5 +1,5 @@
 {
-  "name": "drupal/feeds_youtube_api_parser",
+  "name": "drupal/feeds_youtube_api",
   "description": "Fetches YouTube videos from playlists via Google API v3.",
   "type": "drupal-module",
   "keywords": ["Drupal"],
