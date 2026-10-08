@@ -1,6 +1,6 @@
 name: Feeds YouTube API
 description: Fetches YouTube videos from playlists via Google API v3.
-core_version_requirement: ^8 || ^9 || ^10
+core_version_requirement: ^8 || ^9 || ^10 || ^11
 package: Feeds
 type: module
 dependencies:
